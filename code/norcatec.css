@@ -1,0 +1,557 @@
+html {
+	background-color: #274f75;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #171717;
+	font-family: proxima-nova, Georgia, serif;
+	font-size: 100%;
+	line-height: 1.25em;
+}
+a.am-hoverShw {
+	display: block; text-indent: -999em; overflow: hidden; width: 100%; height: 100%;
+	}
+a.am-hoverShw:hover {
+	background: url(../images/library/am-hoverShw10.png) repeat transparent;
+	}
+a.am-hoverShw.cur:hover {
+	background-image: none; cursor: default;
+	}
+/*
+.am-rc {
+	-moz-border-radius: 7px; -webkit-border-radius: 7px; border-radius: 7px;
+	}
+*/
+* ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	}
+* ul.bul, * ul.num, * ul.lowAlpha, * ul.upperRoman {
+	margin: .75em 0 .75em 2.5em;
+	}
+* ul li {
+	list-style: none;
+	}
+#content ul li {
+	margin-top: .2em;
+	}
+* ul.bul li {
+	list-style: disc;
+	}
+* ul.lowAlpha li {
+	list-style: lower-latin;
+	}
+ul.bul ul.bul {
+	margin: .25em 0 .25em 1.5em;
+	}
+ul.bul ul.bul li {
+	list-style: circle;
+	}
+/*
+#content em {
+    font-family: Trebuchet, sans-serif;
+	}
+#content strong {
+    font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+	}
+*/
+a.outsource {
+	background: transparent url(../images/library/external-Icon.png)  right 1px no-repeat;
+	padding-right: 14px;
+	}
+p { margin: 0; padding: 0; }
+
+#home h1, span#logo {
+	position: absolute; margin: 0; padding: 0; font-size: 6px !important;
+	width: 248px; height: 53px; top: 14px; left: 62px;
+	overflow: hidden; text-indent: -9999em; border: 0;
+	z-index: 11;
+	}
+span#logo a {
+	display: block; width: 100%; height: 100%;
+	}
+span#logo a:hover {
+	background: url(../images/library/am-hoverShw20.png) no-repeat;
+	}
+
+#contentTopWrap {
+	width: 100%; height: 228px;
+	}
+#home #contentTopWrap {
+	height: 442px;
+	}
+#contentTop {
+	width: 960px; margin: 0 auto; position: relative; height: 100%;
+	background: url(../images/aerospaceMain.jpg) no-repeat 0 bottom;
+	}
+#armored-vehicles #contentTop {
+	background-image: url(../images/armoredMain.jpg);
+	}
+#electronics #contentTop {
+	background-image: url(../images/electronicsMain.jpg);
+	}
+#naval #contentTop {
+	background-image: url(../images/navalMain.jpg);
+	}
+#about #contentTop, #whyus #contentTop,
+#contact #contentTop, #supply #contentTop, #quality-management #contentTop{
+	background-image: url(../images/aboutMain.jpg);
+	}
+#home #contentTop {
+	background-image: none; width: 980px;
+	}
+#mainImgWrap {
+	width: 960px; height: 200px; position: absolute; top:28px; left: 20px;
+	}
+#home #mainImgWrap {
+	height: 414px;
+	}
+#mainImg {
+	width: 100%;
+	z-index: 1;
+	}
+#topRedLabel {
+	position: absolute; top: 316px; right: -20px;
+	background: url(../images/redLabelCorner.png) no-repeat right bottom;
+	margin: 0; padding: 0 0 11px 0; z-index: 9;
+	}
+#topRedLabel p {
+	background-color: #b2130f; text-align: right;
+	padding: 10px 40px; color: #fefefe;
+	}
+
+#contentOuterWrap {
+	width: 100%; position: relative; background-color: #fff;
+	}
+#contentWrap {
+	width: 960px; margin: 0 auto; padding: 50px 0 26px;
+	background: url(../images/aerospaceContRight.jpg) right 50px no-repeat;
+	}
+#armored-vehicles #contentWrap {
+	background-image: url(../images/armoredContRight.jpg);
+	}
+#electronics #contentWrap {
+	background-image: url(../images/electronicsContRight.jpg);
+	}
+#naval #contentWrap {
+	background-image: url(../images/navalContRight.jpg);
+	}
+#about #contentWrap, #whyus #contentWrap,
+#contact #contentWrap {
+	background-image: url(../images/aboutContRight.jpg);
+	}
+#quality-management #contentWrap {
+    background-image: url(../images/Quality-Management-right-3.png);
+    background-position-y: 67px;
+}
+#company-news #contentWrap {
+    background: url(../images/HoneywellLogo.jpg)  700px 50px no-repeat;
+}
+#supply #contentWrap {
+	background-image:none;
+	}
+#home #contentWrap {
+	width: 980px; padding-top: 46px; background-image: none;
+	}
+#content {
+	width: 660px; min-height: 450px;
+	}
+#supplySlideShowWrap {
+	width: 630px; margin: 0 0 40px 166px; position: relative; height: 390px;
+	}
+#slideShowPrev, #slideShowNext {
+	position: absolute; left: 282px; bottom: 0; width: 33px; height: 24px;
+	z-index: 100; background: url(../images/prevNextBtn.png) no-repeat 0 0;
+	}
+#slideShowNext {
+	left: 313px;
+	background-position: -33px 0;
+	}
+#slideShowPrev:hover, #slideShowNext:hover {
+	cursor: pointer;
+	}
+/*HOME*/
+#content1Wrap {
+	float: left; width: 960px; margin: 0 0 40px 20px; color: #1c3349;
+	}
+#content1Left {
+	float: left; width: 676px;
+	}
+#content1Left > * {
+	padding-right: 40px;
+	}
+#content1Right {
+	float: left; width: 284px;
+	}
+#content1Right p {
+	margin-left: 40px;
+	}
+#phone {
+	min-height: 30px; line-height:30px; padding: 0 0 0 36px; background: url(../images/phoneIcn.png) -2px 4px no-repeat;
+	margin-top: 10px !important;
+	}
+#homeContactBtn {
+	width: 262px; height: 61px; margin: 0 !important; color: #fff;
+	background: url(../images/home_contactBtn.png) no-repeat;
+	text-align: center; line-height: 55px !important;
+	}
+#homeContactBtn a {
+	display: block; height: 100%; width: 100%; color: #fff !important; background-color: transparent;
+	}
+.jsOff p#homeContactBtn a,
+.wf-inactive p#homeContactBtn a {
+	text-transform: uppercase; font-weight: bold;
+	}
+#homeContactBtn a:hover	{
+	background: url(../images/library/am-hoverShw20.png) repeat transparent;
+	}
+
+ul#content2Wrap {
+	width: 960px; margin: 0 0 0 20px; display: table; clear: both;
+	height: 158px; text-transform: uppercase; position: relative;
+	}
+#content2Wrap li {
+	display: table-cell; border-right: 13px solid #fff; padding: 0; margin: 0;
+	height: 158px; width: 230px;
+	background: url(../images/homeContent2Bcgr.jpg) no-repeat 0 bottom;
+	}
+#content2Wrap #tab2	{
+	background-position: -240px bottom;
+	 }
+#content2Wrap #tab3	{
+	 background-position: -480px bottom;
+	 }
+#content2Wrap #tab4	{
+	 background-position: -720px bottom; border-right: 1px solid #fff;
+	 }
+#content2Wrap li a  {
+	display: block; position: relative;
+	height: 100%; width: 100%;
+	}
+#content2Wrap li a:hover  {
+	background-color: transparent;
+	}
+#content2Wrap a span  {
+	position: absolute; bottom:0; left: 0;
+	height: 109px; width: 230px;
+	}
+#content2Wrap a span.hover  {
+	background: url(../images/library/am-hoverShw20.png) repeat transparent;
+	}
+
+#content3Wrap {
+	width: 960px; margin: 80px 0 0 20px; position: relative;
+	background-color: #d8dadc; height: 107px; padding: 66px 0 0 0;
+	}
+#companiesListHeader  {
+	position: absolute; top: -20px; left: -20px;
+	background: url(../images/redLabelCorner2.png) no-repeat left bottom;
+	margin: 0; padding: 0 0 9px 0;
+	}
+#companiesListHeader p {
+	background-color: #b2130f; margin-top: 0 !important;
+	padding: 12px 40px 10px; color: #fefefe; height: 40px;
+	}
+#quality-management #contentWrap {position: relative; }
+#PQR { position: absolute; left: auto; right: 12px; top: 410px; width: 230px; text-align: center; font-weight: bold; }
+#PQR1, #P3 { position: absolute; left: auto; right: 3px; top: 20px; width: 230px; height: 70px; text-align: center; font-weight: bold;
+background-color: white; }
+#P3 { top: 480px; }
+
+#sliderCtner { margin-left: 65px; }
+#sliderCtner li { margin-right: 10px; }
+.jsOff #sliderCtner ul,
+.jsOff #sliderCtner li {
+	float: left;
+	}
+.jsOff #sliderCtner ul {
+	width: 840px; height: 70px; overflow: hidden;
+	}
+.jsOff #sliderCtner li {
+	width: 130px;
+	}
+#sliderBtnLeft, #sliderBtnRight {
+	position: absolute; top: 66px; left: 10px; height: 70px; width: 35px;
+	background: url(../images/home_companies/buttons.png) no-repeat 0 0;
+	cursor: pointer;
+	}
+#sliderBtnRight {
+	right:10px; left:auto;
+	background-position: -35px 0;
+	}
+#content4Wrap {
+	width: 960px; margin: 36px 0 0 20px; position: relative;
+	}
+#content4Cont {
+	height: 298px; position: relative; margin: 20px 0 100px 0;
+	background: url(../images/content4Bcgr.jpg) no-repeat 0 0;
+	}
+#content4WhatNew {
+	height: 115px; width: 260px; position: absolute; left:470px;top:0;
+	background-color: #b2130f; margin:0 !important; padding:0;
+	text-align:center; padding-top: 35px;color: #fff;
+	}
+#content4RightMost {
+	height: 263px; width: 210px; position: absolute; right:0;top:0; text-align:right;
+	padding: 35px 20px 0 0;
+	background-color: #274f75; margin:0 !important; color: #fff;
+	}
+/****BOTTOM*****************/
+#bottomWrapOuter {
+	width: 100%;
+	padding: 34px 0 40px; color: #b3cfe9;
+	}
+#bottomWrapOuter a:link, #bottomWrapOuter a:visited {
+	color: #b3cfe9;
+	}
+#bottomWrapOuter a:hover, #bottomWrapOuter a.cur {
+	color: #fff; background-color: transparent;
+	}
+#bottomWrap {
+	width: 980px; margin: 0 auto; position: relative;
+	}
+p#Itar { position: absolute; top:0; right: 40px; width: 90px; height: 90px; }
+a img { border: 0; }
+#bottom {
+	float: left; margin-left: 20px; width: 960px;
+	}
+#bottomWrap div.botCol {
+	float: left; width: 25%;
+	}
+
+p#copyright {
+	margin: 0 0 3em 20px; clear: left; width: 25%;
+	}
+#socialLinks li {
+	background: url(../images/yarnsSprite.png) no-repeat -17px -760px;
+	height: 32px; line-height: 32px; padding: 0 0 0 40px;
+	}
+#socialLinks li#facebook {
+	background-position: -17px -860px;
+	margin-top: 10px;
+	}
+#socialLinks li#patternfish {
+	background-position: -20px -960px;
+	margin-top: 10px;
+	}
+#socialLinks li#ravelry {
+	background-position: -20px -1108px;
+	margin-top: 10px;
+	}
+
+/****FORMATTING****************************************************************/
+h1 {
+	width: 228px; margin: 0 0 24px; padding-bottom: 12px; border-bottom: #678083 1px solid;
+	}
+h2 {
+	margin: 0;
+	}
+#content h2 {
+	margin: 24px 0 16px;
+	}
+#contentWrap p {
+	margin-top: .75em;
+	}
+p.more {
+	text-align: right; margin-top:0 !important; padding-right: 4em !important;
+	}
+
+a, a:link, a:visited, a:hover {
+	color: #3872a9; text-decoration: none;
+	}
+a:hover {
+	cursor: pointer; background-color: #3872a9; color: #FFF;
+	}
+a.cur:hover {
+	cursor: default;
+	}
+
+a:focus, a:active, a:visited {
+	outline: none;
+	}
+a img {
+	border: none;
+	}
+
+ul#content2Wrap, h2, h1,
+#content1Right,
+#content2Wrap li a,
+#content2Wrap li a:hover {
+	color: #678083 !important;
+	}
+/****MAIN MENU************/
+
+#mainMenuWrap {
+	position: absolute; top: 0; left: 23px; width:914px; height: 86px;
+	z-index: 10; background: url(../images/logoMenuBar1.png) no-repeat;
+	}
+#home #mainMenuWrap {
+	left: 43px;
+	}
+#mainMenu {
+	margin: 0 0 0 auto; width: 66%; height: 83px;
+	z-index: 10; text-align: right; color: #11202f;
+	}
+#mainMenu li.f {
+	display: inline-block; margin-left: 20px; height: 83px;
+	line-height: 83px; padding: 0 20px;
+	}
+#mainMenu a.fChild, #mainMenu a.fChild:link,
+#mainMenu a.fChild:visited, #mainMenu a.fChild:hover {
+	display: inline-block; height: 100%; width: 100%;
+	color: #11202f;
+	}
+#mainMenu li.f:hover, #mainMenu li.f:hover a.fChild, #mainMenu a.fChild:hover {
+	color: #fff; background-color: #16283a; cursor:pointer;
+	}
+#mainMenu li ul {
+	display: none; position: absolute; top: 83px; left: 1px; width: 464px; height: 98px;
+	background-color:#16283a; text-align: left; padding: 8px 0 0 448px; color:#fff;
+	cursor:default;
+	}
+#mainMenu li ul#company {
+	height: 128px;
+	}
+.jsOff #mainMenu li.hasSub:hover ul {
+	display: block;
+	}
+#mainMenu li ul li {
+	width: 180px; float: left;
+	border-bottom: 1px dotted #fff;
+	padding: 12px 0; line-height: 1em; margin-left: 20px;
+	}
+#mainMenu li ul li.noBorder {
+	border-bottom: 0px dotted #fff;
+	padding-bottom: 0;
+	}
+#mainMenu li ul li.subDouble {
+	position: absolute; top: 0; left: 107px; line-height: 106px; margin: 0; padding: 0;
+	width: auto; border-bottom: 0;
+	}
+#mainMenu li ul li a {
+	color: #fff; display: inline-block; width: 100%;
+	}
+#mainMenu li ul a:hover,
+#mainMenu li ul a.cur {
+	color: #c1c2c3 !important;
+	}
+#mainMenu li ul a:hover {
+	background-color: transparent;
+	}
+
+
+#leadership-team #contentWrap {background-image: none;}
+#staff {
+	width: 660px; margin: 0 0 0 300px;
+	}
+.oneMemb {
+	position: relative; margin-top: 40px; padding-bottom: 30px;
+	border-bottom: 1px solid #eaeaea;
+	}
+.oneMemb:last-child {
+	border-bottom: 0 solid #eaeaea;
+	}
+img.imgArtclStart {
+	position: absolute; width: 250px; left: -300px; top: 0;
+	border: 5px solid #274f75;
+	}
+
+.membTitle { font-size: larger; }
+
+#staff h2 {
+	font-size: 2em;
+	}
+#leadership-team .bio p { text-align: justify; }
+
+/***FONTS ************************************************************************/
+
+.jsOff #contentOuterWrap,
+.wf-inactive #contentOuterWrap {
+	font-size: 0.938em;
+	}
+#mainMenuWrap {
+	font-family: dederon-sans-web, Verdana; font-weight: 500;
+	}
+ul#content2Wrap, #homeContactBtn,
+#mainMenu li ul li.subDouble, h1, h2,
+#topRedLabel, #companiesListHeader, #content4RightMost, #content4WhatNew,
+.largerAtrament {
+	font-family: atrament-web, Arial, Helvetica, sans-serif; font-weight: 400;
+	}
+#topRedLabel, #companiesListHeader, #content4WhatNew {
+	font-weight: 600;
+	}
+#content strong {
+	font-weight: 700;
+	}
+h1, p#homeContactBtn {
+	font-size: 2em;
+	}
+.jsOff h1,
+.wf-inactive h1 {
+	font-size: 1.75em;
+	}
+.jsOff p#homeContactBtn,
+.wf-inactive p#homeContactBtn {
+	font-size: 1.3em;
+	}
+h2, ul#content2Wrap  {
+	font-size: 1.375em;
+	}
+.jsOff h2, .jsOff ul#content2Wrap,
+.wf-inactive h2, .wf-inactive ul#content2Wrap  {
+	font-size: 1.2em;
+	}
+#topRedLabel, #companiesListHeader, #content4RightMost  {
+	font-size: 1.75em; line-height: 1.1;
+	}
+#content4WhatNew  {
+	font-size: 2em; line-height: 1.1;
+	}
+.jsOff #topRedLabel, .jsOff #companiesListHeader,
+.wf-inactive #topRedLabel, .wf-inactive #companiesListHeader,
+.wf-inactive #content4RightMost, .wf-inactive #content4WhatNew {
+	font-size: 1.5em; line-height: 1.1;
+	}
+#mainMenu li ul li.subDouble {
+	font-size: 1.75em; color: #aeb3b7;
+	}
+.jsOff #mainMenu li ul li.subDouble,
+.wf-inactive #mainMenu li ul li.subDouble {
+	font-size: 1.5em;
+	}
+.largerAtrament {
+	font-size: 1.25em;
+	}
+.jsOff .largerAtrament,
+.wf-inactive .largerAtrament {
+	font-size: 1.133em;
+	}
+#phone {
+	font-size: 1.25em;
+	}
+/*
+.jsOff #phone,
+.wf-inactive #phone {
+	font-size: 1.2em;
+	}
+*/
+#bottomWrapOuter {
+	font-size: 0.75em;
+	}
+.w1280 #bottomWrapOuter {
+	font-size: 0.8125em;
+	}
+.jsOff #bottomWrapOuter,
+ .wf-inactive #bottomWrapOuter {
+	font-size: 0.875em;
+	}
+p#copyright {
+	font-size: .917em;
+	}
+.w1280 p#copyright {
+	font-size: .923em;
+	}

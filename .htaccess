@@ -1,0 +1,13 @@
+### SSL PROVISIONING CODE START
+### DO NOT REMOVE, MUST BE FIRST DIRECTIVE IN .htaccess
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} ".*/\.well-known/.*" [NC]
+RewriteRule ^.*\.well-known(/.*)?$ - [END]
+### SSL PROVISIONING CODE END
+
+RewriteEngine on
+RewriteCond %{SERVER_PORT} ^80$
+RewriteRule ^(.*)$ https://norcatec.com/$1 [R=301,L]
+
+Redirect 301 http://www.norcatec.com/popups/eltronics.htm http://www.norcatec.com/electronics.html

@@ -1,0 +1,36 @@
+#mainMenu li.f {
+	float:left;
+	}
+#content2Wrap li { 
+	float:left;
+	}
+#mainMenu a.fChild, #mainMenu a.fChild:link, 
+#mainMenu a.fChild:visited, #mainMenu a.fChild:hover {
+	display: inline; width: auto;
+	}
+#mainMenu li.curIE6, #mainMenu li.curIE6 a.fChild {
+	color: #fff !important; background-color: #16283a; cursor:pointer;
+	}
+#content2Wrap a span.hover, span#logo a:hover,
+#homeContactBtn a:hover  { 
+	background-image: none;
+	}
+#content { 
+	height: 450px;
+	}
+#phone { 
+	height: 30px;
+	}
+#bottom { 
+	margin-left:10px !important;
+	}
+#content1Wrap { 
+	margin-left:12px !important;
+	}
+#content2Wrap, #content3Wrap { 
+	margin-left:24px !important;
+	}	
+#mainMenuWrap {
+	height: 83px;
+	background: url(../images/logoMenuBar1ie6.png) no-repeat;
+	}
