@@ -384,7 +384,7 @@ ul#content2Wrap, h2, h1,
 	position: absolute; top: 0; left: 23px; width:914px; height: 86px;
 	z-index: 10; 
     /* YOUR NEW LOGO IS REFERENCED HERE: */
-    background: url(../images/new-logo-transparent.png) no-repeat; 
+    background: url(../images/logoMenuBar1.png) no-repeat; 
 	}
 #home #mainMenuWrap {
 	left: 43px;
